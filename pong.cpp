@@ -57,7 +57,7 @@
 
 #include "ping-common.h"
 #include "pong.h"
-
+//测试
 QString Pong::ping(const QString &arg)
 {
     QMetaObject::invokeMethod(QCoreApplication::instance(), "quit");
